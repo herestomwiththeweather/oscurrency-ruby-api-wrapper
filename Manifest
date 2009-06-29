@@ -1,0 +1,9 @@
+Rakefile
+Manifest
+oscurrency-ruby-api-wrapper.gemspec
+init.rb
+lib/oscurrency.rb
+lib/oscurrency/models/exchange.rb
+lib/oscurrency/models/base.rb
+lib/oscurrency/models/person.rb
+README.doc
