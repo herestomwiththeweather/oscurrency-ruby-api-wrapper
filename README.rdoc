@@ -18,14 +18,14 @@ This gem is primarily for ruby on rails web applications and supports oauth.  It
 
 Retrieve information about myself with HTTP Authorization:
 
-oc = Oscurrency.register({:site => 'http://tbbrown%40hotmail.com:mypassword@demo.opensourcecurrency.org'})
-me = oc.Person.find(0)
+  oc = Oscurrency.register({:site => 'http://tbbrown%40hotmail.com:mypassword@demo.opensourcecurrency.org'})
+  me = oc.Person.find(0)
 
-There is a sample app code and a screencast that shows OAuth "Stupid Currency Tricks":http://www.opensourcecurrency.org/2009/06/stupid-currency-tricks-payment-dropbox.html
+There is a sample app code and a screencast that shows OAuth {Stupid Currency Tricks}[http://www.opensourcecurrency.org/2009/06/stupid-currency-tricks-payment-dropbox.html]
 
 == Documentation Wiki
 
-There is some documentation for the API "OsCurrency Github Wiki":http://wiki.github.com/austintimeexchange/oscurrency
+There is some documentation for the API at the {OsCurrency Github Wiki}[http://wiki.github.com/austintimeexchange/oscurrency]
 
 
 == Forum
