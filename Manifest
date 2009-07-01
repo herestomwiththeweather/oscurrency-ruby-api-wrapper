@@ -6,4 +6,4 @@ lib/oscurrency.rb
 lib/oscurrency/models/exchange.rb
 lib/oscurrency/models/base.rb
 lib/oscurrency/models/person.rb
-README.doc
+README.rdoc

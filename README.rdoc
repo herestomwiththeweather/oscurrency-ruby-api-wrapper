@@ -1,0 +1,51 @@
+= Ruby OsCurrency API wrapper GEM
+
+== What
+
+This is a RubyGem for accessing resources on OsCurrency servers in Ruby applications.
+
+== Installing
+
+  sudo gem install herestomwiththeweather-oscurrency-ruby-api-wrapper -s http://gems.github.com
+
+The source code is hosted on GitHub http://github.com/herestomwiththeweather/oscurrency-ruby-api-wrapper
+
+== The basics
+
+This gem is primarily for ruby on rails web applications and supports oauth.  It allows a web application to present payment dropboxes, fetch information about people or groups, and create new groups and currencies.
+
+== Demonstration of usage
+
+Retrieve information about myself with HTTP Authorization:
+
+oc = Oscurrency.register({:site => 'http://tbbrown%40hotmail.com:mypassword@demo.opensourcecurrency.org'})
+me = oc.Person.find(0)
+
+There is a sample app code and a screencast that shows OAuth "Stupid Currency Tricks":http://www.opensourcecurrency.org/2009/06/stupid-currency-tricks-payment-dropbox.html
+
+== Documentation Wiki
+
+There is some documentation for the API "OsCurrency Github Wiki":http://wiki.github.com/austintimeexchange/oscurrency
+
+
+== Forum
+
+http://groups.google.com/group/opensourcecurrency
+
+
+== How to submit patches
+
+Read the "8 steps for fixing other people's code" http://drnicwilliams.com/2007/06/01/8-steps-for-fixing-other-peoples-code/.
+
+The source code is now hosted on the OAuth GitHub Project http://github.com/herestomwiththeweather/oscurrency-ruby-api-wrapper
+
+To submit a patch, please fork the oscurrency-ruby-api-wrapper project and create a patch with tests. Once you're happy with it send a pull request and post a message to the google group.
+
+== License
+
+This code is free to use under the terms of the MIT license. 
+
+== Contact
+
+Comments are welcome. Send an email to "Tom Brown" herestomwiththeweather@gmail.com
+

@@ -2,17 +2,17 @@
 
 Gem::Specification.new do |s|
   s.name = %q{oscurrency-ruby-api-wrapper}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tom Brown"]
-  s.date = %q{2009-06-29}
+  s.date = %q{2009-07-01}
   s.description = %q{wrapper for oscurrency}
   s.email = %q{herestomwiththeweather@gmail.com}
-  s.extra_rdoc_files = ["lib/oscurrency.rb", "lib/oscurrency/models/exchange.rb", "lib/oscurrency/models/base.rb", "lib/oscurrency/models/person.rb", "README.doc"]
-  s.files = ["Rakefile", "Manifest", "oscurrency-ruby-api-wrapper.gemspec", "init.rb", "lib/oscurrency.rb", "lib/oscurrency/models/exchange.rb", "lib/oscurrency/models/base.rb", "lib/oscurrency/models/person.rb", "README.doc"]
+  s.extra_rdoc_files = ["lib/oscurrency.rb", "lib/oscurrency/models/exchange.rb", "lib/oscurrency/models/base.rb", "lib/oscurrency/models/person.rb", "README.rdoc"]
+  s.files = ["Rakefile", "Manifest", "oscurrency-ruby-api-wrapper.gemspec", "init.rb", "lib/oscurrency.rb", "lib/oscurrency/models/exchange.rb", "lib/oscurrency/models/base.rb", "lib/oscurrency/models/person.rb", "README.rdoc"]
   s.homepage = %q{http://opensourcecurrency.org}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Oscurrency-ruby-api-wrapper", "--main", "README.doc"]
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Oscurrency-ruby-api-wrapper", "--main", "README.rdoc"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{oscurrency-ruby-api-wrapper}
   s.rubygems_version = %q{1.3.3}
