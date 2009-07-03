@@ -20,5 +20,6 @@ end
 require 'oscurrency/models/base'
 require 'oscurrency/models/person'
 require 'oscurrency/models/exchange'
-#require 'oscurrency/models/group'
-#require 'oscurrency/models/account'
+require 'oscurrency/models/group'
+require 'oscurrency/models/account'
+require 'oscurrency/models/category'
