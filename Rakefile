@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('oscurrency-ruby-api-wrapper','0.1.4') do |p|
+Echoe.new('oscurrency-ruby-api-wrapper','0.1.5') do |p|
   p.description = 'wrapper for oscurrency'
   p.url = 'http://opensourcecurrency.org'
   p.author = 'Tom Brown'
