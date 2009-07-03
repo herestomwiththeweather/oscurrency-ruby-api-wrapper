@@ -4,6 +4,10 @@ oscurrency-ruby-api-wrapper.gemspec
 init.rb
 lib/oscurrency.rb
 lib/oscurrency/models/exchange.rb
+lib/oscurrency/models/account.rb
+lib/oscurrency/models/group.rb
+lib/oscurrency/models/req.rb
 lib/oscurrency/models/base.rb
 lib/oscurrency/models/person.rb
+lib/oscurrency/models/category.rb
 README.rdoc
