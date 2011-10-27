@@ -43,7 +43,7 @@ To submit a patch, please fork the oscurrency-ruby-api-wrapper project and creat
 
 == License
 
-This code is free to use under the terms of the MIT license. 
+This code is free to use under the terms of the MIT license.
 
 == Contact
 
